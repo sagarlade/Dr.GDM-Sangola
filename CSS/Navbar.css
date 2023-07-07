@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=IBM+Plex+Sans+Condensed&family=Nunito+Sans:wght@300;400&family=Playfair+Display+SC:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Playfair Display SC", serif;
+}
+.college {
+  background-color: #014644;
+  color: white;
+}
+/* Top Nav */
+.top-nav {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.top-nav ul {
+  display: flex;
+  padding-top: 10px;
+}
+.top-nav ul li {
+  list-style: none;
+  width: auto;
+  display: contents;
+  text-align: center;
+}
+.top-nav ul li i {
+  font-size: 18px;
+}
+.top-nav ul li i:nth-child(1) {
+  margin-left: 1.5rem;
+}
+.top-nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.8%;
+  font-size: 15px;
+}
+/* Title CSS */
+.brand {
+  width: 100%;
+}
+.brand .logo img {
+  height: 30vh;
+  width: auto;
+  margin-top: 2em;
+}
+.brand .title {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.brand .title .sub-title {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.brand .title .clg-name {
+  text-transform: capitalize;
+  font-size: 3em;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(255, 167, 2);
+}
+.brand .title .naac {
+  font-size: 2.3em;
+  text-transform: capitalize;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: 1px solid grey; 
+   width: 80%;
+   background-color: rgb(59, 92, 93);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.brand .title .naac > span {
+  color: #ffb300;
+  font-size: 1.2em;
+}
+/* End of Top section */
+
+/* Main Navbar */
+.main-nav {
+  margin-top: 3.2rem;
+  margin-bottom: -1rem;
+  position: relative;
+
+}
+.navbar-nav {
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid rgb(114, 114, 114);
+  background-color: #ff8f07ec;
+  font-family: "Nunito Sans", sans-serif;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 18px;
+  margin-left: 10px;
+  color: white;
+}
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  color: white;
+}
+.navbar-toggler > span {
+  color: white;
+}
+.dropdown-menu{
+  background-color: #014644;
+  color: white;
+}
+.dropdown-menu li a{
+  color: white;
+}
+@media (max-width: 1300px){
+  .navbar-nav{
+    width: 100%;
+  }
+}
+/*End Main Navbar */
