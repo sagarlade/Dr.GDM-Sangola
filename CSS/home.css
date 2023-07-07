@@ -8,7 +8,6 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-family: "Nunito Sans", sans-serif;
-  font-family: "Playfair Display SC", serif;
 }
 
 /*----------------------------------------*/
@@ -497,5 +496,58 @@ iframe:hover{
   .video-text{
     font-size: 14px;
     width: 90%;
+  }
+}
+
+/* SEMINOR WORKSHOP END*/
+/* EVENT Style END */
+/* ==================== */
+
+/*=====================*/
+/* ABOUT Section CSS Start */
+/* ================ */
+.about-gdm{
+  margin: 3rem auto;
+}
+.about-heading{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  font-size: 2.5em;
+  color: blue;
+}
+.about-detils{
+  width: 85%;
+  margin-left: 8rem;
+}
+.table{
+  font-size: 16px;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+.about-info{
+  font-size: 14px;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  letter-spacing: 0.5px;
+}
+.vision-hed, .mission-hed{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1.7em;
+  color: blue;
+}
+@media screen and (max-width:578px){
+  .about-detils{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:767px){
+  .about-detils{
+    width: 90%;
+    margin: 0 auto;
   }
 }
